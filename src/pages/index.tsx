@@ -150,7 +150,10 @@ export default function IndexPage() {
 
   return (
     <DefaultLayout>
-      <section className="flex min-h-screen flex-col gap-4 md:gap-6 lg:gap-8 px-4 md:px-6">
+      <section
+        className="flex min-h-screen flex-col gap-4 md:gap-6 lg:gap-8 px-4 md:px-6"
+        id="home"
+      >
         <div className="flex justify-center gap-4 md:gap-6 items-center flex-col w-full">
           <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl">
             Gemilang Abadi
@@ -177,7 +180,10 @@ export default function IndexPage() {
           Produk
         </h2>
         <div className="w-full overflow-x-auto pb-4">
-          <div className="flex gap-4 min-w-max md:flex-wrap md:justify-center text-black">
+          <section
+            className="flex gap-4 min-w-max md:flex-wrap md:justify-center text-black"
+            id="produk"
+          >
             {produk.map((produks, index) => (
               <div
                 key={`product-${index}`}
@@ -201,14 +207,14 @@ export default function IndexPage() {
                 </div>
               </div>
             ))}
-          </div>
+          </section>
         </div>
 
         {/* Bagian Rokok */}
         <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-6">
           Rokok
         </h2>
-        <div className="w-full overflow-x-auto pb-4">
+        <section className="w-full overflow-x-auto pb-4" id="rokok">
           <div className="flex gap-4 min-w-max md:flex-wrap md:justify-center">
             {rokok.map((rokoks, index) => (
               <div
@@ -234,11 +240,11 @@ export default function IndexPage() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* Bagian Dupa */}
         <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-6">Dupa</h2>
-        <div className="w-full overflow-x-auto pb-4">
+        <section className="w-full overflow-x-auto pb-4" id="dupa">
           <div className="flex gap-4 min-w-max md:flex-wrap md:justify-center">
             {[...Array(10)].map((_, index) => (
               <div
@@ -265,13 +271,13 @@ export default function IndexPage() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
 
         {/* Bagian Sembako */}
         <h2 className="font-bold text-xl md:text-2xl lg:text-3xl mt-6">
           Sembako
         </h2>
-        <div className="w-full overflow-x-auto pb-4">
+        <section className="w-full overflow-x-auto pb-4" id="sembako">
           <div className="flex gap-4 min-w-max md:flex-wrap md:justify-center">
             {[...Array(10)].map((_, index) => (
               <div
@@ -297,7 +303,7 @@ export default function IndexPage() {
               </div>
             ))}
           </div>
-        </div>
+        </section>
       </section>
     </DefaultLayout>
   );
