@@ -83,7 +83,7 @@ export const Navbar = () => {
             href="/"
           >
             {/* <Logo /> */}
-            <Image src="/public/assets/image/logoga.png" width={50} />
+            <Image src="/assets/image/logoga.png" width={50} />
             <p className="font-bold text-inherit">Gemilang Abadi</p>
           </Link>
         </NavbarBrand>
