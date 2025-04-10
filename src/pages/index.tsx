@@ -7,57 +7,57 @@ export default function IndexPage() {
     {
       judul: "Rokok 1",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "test",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 3",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 4",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 5",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 6",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 7",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 8",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 9",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 10",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 11",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 12",
@@ -67,7 +67,7 @@ export default function IndexPage() {
     {
       judul: "Rokok 13",
       deskripsi: "Rokok dengan rasa yang khas dan harga terjangkau.",
-      gambar: "/public/assets/image/hinataaaa.jpg",
+      gambar: "/assets/image/hinataaaa.jpg",
     },
     {
       judul: "Rokok 14",
@@ -167,7 +167,7 @@ export default function IndexPage() {
             <Image
               alt="HeroUI hero Image"
               className="w-full h-auto"
-              src="/public/assets/image/store.jpg"
+              src="/assets/image/store.jpg"
             />
           </div>
         </div>
