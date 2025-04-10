@@ -159,10 +159,23 @@ export default function IndexPage() {
             Gemilang Abadi
           </h1>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-3 w-full">
-            <Button className="w-full sm:w-auto" color="default">
+            <Button
+              as="a"
+              color="default"
+              href="https://wa.me/6289510437648"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Hubungi Kami
             </Button>
-            <Button className="w-full sm:w-auto" color="secondary">
+
+            <Button
+              as="a"
+              color="secondary"
+              href="https://maps.app.goo.gl/QjxZzY7UCUEfu1RC8"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Lihat Dari Google Maps
             </Button>
           </div>
